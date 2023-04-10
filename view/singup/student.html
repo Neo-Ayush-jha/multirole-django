@@ -1,0 +1,4 @@
+<h1>Student</h1>
+{% if user.is_authenticated and user.is_student %}
+{{user.username}}
+{% endif %}
